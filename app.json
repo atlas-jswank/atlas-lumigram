@@ -1,13 +1,18 @@
 {
   "expo": {
-    "name": "atlas-lumigram",
-    "slug": "atlas-lumigram",
+    "name": "Lumigram",
+    "slug": "lumigram",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00003C"
+    },
     "ios": {
       "supportsTablet": true
     },
@@ -27,10 +32,9 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
+          "image": "./assets/images/splash.png",
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#00003C"
         }
       ]
     ],
